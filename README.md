@@ -54,6 +54,27 @@ Create and activate a Python 3.10 environment, then install dependencies:
 pip install -r requirements.txt
 ```
 
+## Dataset Download
+
+This project was tested with the Kaggle dataset below:
+
+`suryaprabhakaran2005/road-accidents-from-cctv-footages-dataset`
+
+You can download it with `kagglehub` using:
+
+```python
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download(
+    "suryaprabhakaran2005/road-accidents-from-cctv-footages-dataset"
+)
+
+print("Path to dataset files:", path)
+```
+
+The printed `path` is the local dataset folder on your machine, and it may differ from system to system.
+
 ## Run the Project
 
 ### Option 1: Notebook
