@@ -1,6 +1,6 @@
 # Smart Surveillance with YOLOv8 and DeepSORT
 
-![Smart Surveillance Banner](assets/repo-banner.png)
+![Smart Surveillance Banner](assets/repo-banner-final.png)
 
 This project is a computer vision mini-project for real-time smart surveillance. It detects people with YOLOv8, tracks them with DeepSORT, estimates motion between frames, logs crowd statistics, and raises a simple crowd alert.
 
@@ -23,7 +23,7 @@ A short academic-style abstract is available in `PROJECT_ABSTRACT.md`.
 
 ### Demo Frame
 
-![Annotated Demo Frame](assets/demo-frame.png)
+![Annotated Demo Frame](assets/demo-frame-final.png)
 
 ### Workflow Diagram
 
