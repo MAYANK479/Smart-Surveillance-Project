@@ -12,6 +12,17 @@ The repo is now organized so it can be shown on GitHub more cleanly:
 - `requirements.txt`: Python dependencies
 - `archive/`: local dataset folder used only during experimentation
 
+## Academic Summary
+
+A short academic-style abstract is available in `PROJECT_ABSTRACT.md`.
+
+## Workflow
+
+1. Run the surveillance pipeline on webcam or video input.
+2. Save annotated output video and CSV logs.
+3. Plot people-count trends from the log.
+4. Optionally evaluate predictions with a labeled CSV file.
+
 ## Features
 
 - Person detection using YOLOv8
@@ -90,6 +101,14 @@ python evaluate_predictions.py --csv evaluation_labels.csv
 - If you submit this academically, keep the project story consistent:
   this repo is a surveillance / people tracking project, not accident severity classification.
 - Add 2-3 screenshots or a short GIF in the final GitHub version for stronger presentation.
+- Add demo media inside the `assets/` folder before final sharing.
+
+## GitHub Polish Added
+
+- Reusable Python scripts for running, plotting, and evaluation
+- Optional evaluation template instead of fake metrics
+- GitHub issue templates and PR template
+- Lightweight GitHub Actions syntax check
 
 ## Suggested GitHub Push Flow
 
